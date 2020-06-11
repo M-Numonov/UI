@@ -1,0 +1,133 @@
+.top-slider
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    .slider-element
+        display: flex
+        min-height: 400px
+        align-items: flex-start
+        justify-content: center
+        width: 1501px
+    
+    .slider-left
+        width: 50%
+        p 
+            color: #232323
+            font-weight: 600
+            font-size: 40px
+            margin-bottom: 40px
+        
+        .slider-preview
+            font-size: 18px
+            font-weight: 600
+            padding-bottom: 40px
+            padding-right: 20px
+        
+        .title-before-top-slider 
+            width: 130px
+            height: 3px
+            display: inline-block
+            background-color: #008ec7
+            position: relative
+            margin-left: -160px
+            margin-right: 20px
+        
+    
+    .slider-right
+        height: 500px
+        width: 50%
+        background-repeat: no-repeat
+        position: relative
+        img.bg
+            height: 500px
+        
+        .slider-right-buttons
+            height: 120px
+            bottom: -25px
+            position: absolute
+            margin-left: 20px
+            margin-bottom: -20px
+            .buttons-wrapper
+                height: 65%
+                text-align: center
+                display: flex
+                a
+                    text-decoration: none
+                
+                div.button
+                    width: 200px
+                    font-size: 16px
+                    font-weight: 600
+                    height: 80px
+                    text-align: center
+                    display: block
+                    align-items: center
+                    margin: 0 auto
+                    padding-top: 10px
+                    img
+                        margin-top: inherit
+                        display: initial
+                    
+                
+                .demo, .video
+                    color: white
+                    border-bottom: 3px solid #1c5990
+                
+                .demo:hover, .video:hover
+                    border-bottom: 5px solid #1c5990
+                
+                .download:hover
+                    border-bottom: 5px solid #1e9bce                    
+                
+                .download
+                    color: #232323
+                    border-bottom: 3px solid #1e9bce
+                    background-color: #fff
+                
+                .demo
+                    background-color: #008ec7
+                
+                .video
+                    background-image: url('../icons/bg.png')
+                    background-size: cover
+                    background-repeat: no-repeat
+                    background-position: center
+                
+            
+
+        
+    
+
+.slider-section
+    position: relative
+    width: 1270
+    .buttons-container
+        overflow: auto
+        height: 85px
+        justify-content: flex-start
+        margin-top: -80px
+    
+    .slider-buttons
+        justify-content: left
+        z-index: 10
+        button
+            width: 80px
+            height: 80px
+            border-radius: 50px
+            font-size: 30px
+            color: #008ec7
+            background: transparent
+            border: 0px
+            transition: .2s ease-in-out
+            &:hover
+                background-color: #008ec7
+                color: white
+                cursor: pointer
+            
+            &:focus
+                outline: transparent
+            
+        
+    
+

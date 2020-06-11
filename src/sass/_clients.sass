@@ -1,0 +1,51 @@
+.clients-slider
+    .clients-row
+        align-items: center
+        justify-content: space-between
+        overflow: hidden
+    
+    .clients-title
+        font-size: 30px
+        font-weight: 600
+        justify-content: left
+        line-height: 0px
+    
+    .slider-buttons
+        position: relative
+        bottom: 0px
+        button
+            width: 80px
+            height: 80px
+            border-radius: 50px
+            font-size: 30px
+            color: #008ec7
+            background: transparent
+            border: 0px
+            transition: .2s ease-in-out
+            &:hover
+                background-color: #008ec7
+                color: white
+            
+            &:focus
+                outline: transparent
+            
+        
+     
+    .client-row
+        width: 100%
+        align-items: center
+        justify-content: space-between
+        .client-box
+            width: 230px
+            height: 150px
+            margin: 0 15px
+            margin-top: 25px
+            display: flex
+            align-items: center
+            border-bottom: 2px solid #888888
+            justify-content: center
+        
+        .client-box.slick-active
+            border-bottom: 2px solid #008ec7        
+        
+      

@@ -1,0 +1,67 @@
+@import "fonts"
+@import "libs"
+
+
+
+html, body
+	height: 100%
+
+body
+	position: relative
+	font-family: Montserrat, serif
+	overflow-x: hidden
+	opacity: 1
+
+html, body
+	height: 100%
+	background-color: transparent
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid, :focus
+	outline: transparent
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+@import "default";
+@import "header";
+@import "menu";
+@import "top-slider";
+@import "automize";
+@import "tasks";
+@import "facilities";
+@import "reviews";
+@import "clients";
+@import "monitoring";
+@import "consulting";
+@import "news";
+@import "partners";
+@import "footer";
+@import "media" // Всегда в конце

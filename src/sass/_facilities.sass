@@ -1,0 +1,79 @@
+.facilities-slider
+    min-height: 900px
+    background-color: #f8f8f8  
+    .facilities-title
+        margin-bottom: 50px
+        font-size: 30px
+        font-weight: 600
+        justify-content: left
+    
+    .slider-left
+        width: 550px
+        img
+            width: 80%
+        
+    
+    .slider-right
+        width: 700px
+        p
+            font-size: 18px
+            font-weight: 600
+        
+        .slider-preview
+            font-size: 16px
+        
+        ul
+            margin-top: 60px
+            list-style: none
+            li
+                margin-bottom: 25px
+                position: relative
+                &::before
+                    position: absolute
+                    z-index: 100000
+                    left: -40px
+                    top: -5px
+                    content: url("../icons/tick.png")
+    .facilities-container
+        align-items: end
+        .slick-slide
+            display: flex
+.facilities-slider
+    position: relative
+    .buttons-container
+        overflow: auto
+        height: 85px
+        justify-content: flex-start
+        margin-top: -80px
+    
+    .slider-buttons
+        justify-content: left
+        z-index: 10
+        button
+            width: 80px
+            height: 80px
+            border-radius: 50px
+            font-size: 30px
+            color: #008ec7
+            background: transparent
+            border: 0px
+            transition: .2s ease-in-out
+            &:hover
+                background-color: #008ec7
+                color: white
+            
+            &:focus
+                outline: transparent
+.free-demo
+    margin: 60px
+    height: 60px
+    text-align: center
+    width: 460px
+    background-color: #008ec7
+    color: #fff
+    font-size: 18px
+    border: 0px solid
+    &:hover
+        cursor: pointer
+        background-color: #03a2e2
+    
